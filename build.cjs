@@ -1,0 +1,1 @@
+const fs=require('node:fs'),path=require('node:path');fs.mkdirSync(path.join(__dirname,'dist'),{recursive:true});for(const f of ['index.html','style.css','app.js','data.js','roadmap.pdf'])fs.copyFileSync(path.join(__dirname,f),path.join(__dirname,'dist',f));console.log('Static build ready in dist/');

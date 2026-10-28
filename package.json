@@ -1,0 +1,1 @@
+{"name":"ai-forge","version":"1.0.0","private":true,"description":"Personal local roadmap and mentor workbook","scripts":{"start":"node server.cjs","build":"node build.cjs","test":"node test.cjs"}}
